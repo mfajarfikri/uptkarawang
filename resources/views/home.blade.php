@@ -1,4 +1,5 @@
-@extends('main.layout')
+@include('component.navbar')
+@extends('layouts.Layout')
 
 @section('content')
     <H1>WELCOME</H1>

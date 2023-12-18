@@ -17,13 +17,8 @@
     }
 </style>
 
-<body class="bg-noble-800">
-
-    @include('component.navbar')
-
+<body class="">
     @yield('content')
-
-    <script src="{{ asset('js/script.js') }}"></script>
 </body>
 
 </html>
